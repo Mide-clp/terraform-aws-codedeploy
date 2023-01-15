@@ -10,3 +10,8 @@ terraform {
 provider "aws" {
   
 }
+
+module "subnet" {
+  source = "../modules/subnet"
+  subnet_count  = var.subnet_count
+}

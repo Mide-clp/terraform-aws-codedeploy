@@ -1,6 +1,6 @@
 variable "subnet_count" {
   type        = number
-  default     = 3
+  default     = 1
   description = "Number of subnet to be created"
 }
 
