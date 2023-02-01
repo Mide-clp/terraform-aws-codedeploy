@@ -60,7 +60,4 @@ module "security_group" {
   sg_vpc_id = aws_vpc.web_app_vpc.id
   ingress_rule = local.ingress
   egress_rule = var.egress_rule
-
-
-  
 }
